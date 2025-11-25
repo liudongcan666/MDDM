@@ -29,8 +29,8 @@ python pre_process_llcm.py
 We provide convenient shell scripts for training and testing. You can directly follow the scripts or run the commands manually.
 
 ```bash
-# Using the training script
-bash train_sysu.sh
+# Using the script
+bash train.sh
 ```
 
 ##  Requirements
