@@ -34,7 +34,7 @@ bash train.sh
 ```
 
 ##  Requirements
-we use single RTX3090 24G GPU for training and evaluation.
+we use single RTX4090 24G GPU for training and evaluation.
 
 ##  Note
 Currently, we provide only preprocessing and training/testing scripts. The full model code will be released upon paper acceptance.
