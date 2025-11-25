@@ -1,4 +1,4 @@
-# Domain Shifting: A Generalized Solution for Heterogeneous Cross-Modality Person Re-Identification [ECCV 2024]
+# Mutual Distillation Driven Dual-Space Matching for Visible–Infrared Person Re-Identification
 
 Welcome to use the code from our paper **"Domain Shifting: A Generalized Solution for Heterogeneous Cross-Modality Person Re-Identification"**.
 
@@ -9,13 +9,8 @@ Welcome to use the code from our paper **"Domain Shifting: A Generalized Solutio
 - PyTorch >= 2.0.1
 
 ### Dataset
-Prepare the datasets in the following structure:
+Prepare the datasets 
 
-Dataset/
-├── SYSU-MM01
-├── RegDB
-├── LLCM
-DNS/
 
 
 
@@ -25,11 +20,12 @@ Preprocess SYSU-MM01 and LLCM datasets for faster training:
 ```bash
 python pre_process_sysu.py
 python pre_process_llcm.py
-Training
+```bash
+
+### Training
 SYSU-MM01:
 
-bash
-复制代码
+
 python train.py --dataset sysu --lr 0.2
 RegDB:
 
