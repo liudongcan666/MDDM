@@ -42,3 +42,6 @@ Currently, we provide only preprocessing and training/testing scripts. The full 
 
 ## Acknowledgements
 The code is based on [DNS](https://github.com/Joey623/DNS), [CAJ](https://github.com/mangye16/Cross-Modal-Re-ID-baseline/tree/master/ICCV21_CAJ), and [DEEN](https://github.com/ZYK100/LLCM). We thank the authors for open-sourcing their code.
+
+## Contact
+If you have any questions, don't hesitate to contact me via dongcanliu@stu.cqut.edu.cn.
