@@ -2,14 +2,14 @@
 
 Welcome to use the code from our paper **"Mutual Distillation Driven Dual-Space Matching for Visible–Infrared Person Re-Identification"**.
 
----
+
 
 ##  Environment
 
 - Python 3.10+
 - PyTorch >= 2.0.1
 
----
+
 
 ##  Dataset
 
