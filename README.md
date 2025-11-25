@@ -22,14 +22,16 @@ Preprocess SYSU-MM01 and LLCM datasets for faster training:
 ```bash
 python pre_process_sysu.py
 python pre_process_llcm.py
-```bash
+```
 
-Training and Testing
+#Training and Testing
 
 We provide convenient shell scripts for training and testing. You can directly follow the scripts or run the commands manually.
 
+```bash
 # Using the training script
 bash train_sysu.sh
+```
 
 ##  Requirements
 we use single RTX3090 24G GPU for training and evaluation.
